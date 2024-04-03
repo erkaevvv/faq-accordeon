@@ -1,0 +1,17 @@
+.accordeon-section {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 310px;
+	flex-grow: 0.22;
+	padding: 23px 23px 0 23px;
+	border-radius: 15px;
+	background-color: hsl(0, 0%, 100%);
+	box-shadow: 9px 9px 18px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 1200px) {
+	.accordeon-section {
+		padding: 35px 35px 12px 35px;
+	}
+}

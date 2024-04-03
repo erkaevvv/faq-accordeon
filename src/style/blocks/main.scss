@@ -1,0 +1,16 @@
+.main {
+	display: flex;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
+	background-image: url(../../assets/images/background-pattern-mobile.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: hsl(275, 100%, 97%)
+}
+
+@media screen and (min-width: 376px) {
+	.main {
+		background-image: url(../../assets/images/background-pattern-desktop.svg);
+	}
+}

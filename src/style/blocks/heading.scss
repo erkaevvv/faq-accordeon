@@ -1,0 +1,31 @@
+.heading {
+	position: relative;
+	margin: 0;
+	padding-left: 50px;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.heading::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+	background-image: url(../../assets/images/icon-star.svg);
+	background-size: contain;
+}
+
+@media screen and (min-width: 1200px) {
+	.heading {
+		padding-left: 65px;
+		font-size: 56px;
+	}
+	.heading::before {
+		width: 40px;
+		height: 40px;
+	}
+}

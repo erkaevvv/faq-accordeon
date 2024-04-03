@@ -1,0 +1,22 @@
+@import '/style/blocks/accordeon-item';
+@import '/style/blocks/accordeon';
+@import '/style/blocks/heading';
+@import '/style/blocks/accordeon-section';
+@import '/style/blocks/main';
+
+
+@font-face {
+	font-family: WorkSans-Italic;
+	src: url(../../assets/font/worksans-variablefont-wght.woff);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: WorkSans-Italic;
+}
