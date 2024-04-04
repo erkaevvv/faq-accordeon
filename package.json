@@ -2,12 +2,12 @@
   "name": "faq-accordion-main",
   "version": "1.0.0",
   "description": "![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)",
-	"homepage": "https://erkaevvv.github.io/faq-accordeon",
+  "homepage": "https://erkaevvv.github.io/faq-accordeon/",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && parcel build src/index.html --out-dir build",
     "dev": "parcel src/index.html --open",
-		"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
