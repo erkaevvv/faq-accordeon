@@ -2,7 +2,7 @@
   "name": "faq-accordion-main",
   "version": "1.0.0",
   "description": "![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)",
-	"homepage": "https://github.com/erkaevvv/faq-accordeon",
+	"homepage": "https://erkaevvv.github.io/faq-accordeon",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && parcel build src/index.html --out-dir build",
